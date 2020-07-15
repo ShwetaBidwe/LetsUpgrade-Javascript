@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>
+            Difference between var let and const
+        </title>
+    </head>
+    <body>
+        <script type="text/javascript">
+        //var is function scope.
+        document.write(z);
+        document.write("</br>");
+        var z= 10;
+        document.write(z);
+        // calling var z before definition will return undefined
+
+        //let is block scoped
+        // document.write(z);
+        // document.write("</br>");
+        // let  z= 10;
+        // document.write(z);
+        //calling let a before definition will give error
+
+        // calling z after definition using let
+        let z=10;
+        document.write(z); 
+
+        //Const cannot be reassigned
+        x = 3; 
+    console.log(x); 
+    const x;
+
+    //const variable assigned after declaration
+    const x; 
+    x = 12; 
+
+        </script>
+    </body>
+</html>
