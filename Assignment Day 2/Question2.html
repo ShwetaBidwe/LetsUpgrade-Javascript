@@ -1,0 +1,36 @@
+<html>
+    <head>
+        Assignment day 2 - question 2
+    </head>
+    <body>
+        <script type= "text/javascript">
+     document.write("<br>"+ "<b>"+"String methods"+ "</b>");
+    var str= "Letsupgrade javascript Assignment day 2"
+    //returns the index of (the position of) the first occurrence of a specified text in a string
+    var find = str.indexOf("day");
+    document.write("<br>"+find)
+
+    //searches a string for a specified value and returns the position of the match:
+    var sear = str.search("javascript");
+    document.write("<br>"+ sear);
+
+    //slice() extracts a part of a string and returns the extracted part in a new string.
+    var abc = str.slice(12, 34);
+    document.write("<br>"+abc);
+    
+    document.write("<br>"+ "<b>"+ "Array methods"+ "</b>");
+    //deleting the element from array
+    var cars = ["wagnor", "maruti","mercedes","rolls royace", "audi", "nano"];
+    delete cars[5];
+    document.write("<br>"+cars);
+
+    //slicing the array
+     var expensive= cars.slice(2, 5);
+     document.write("<br>"+ expensive);
+
+     //changing the elements of the array
+     cars[2]= "jaguar";
+     document.write("<br>"+cars)
+        </script>
+    </body>
+</html>
